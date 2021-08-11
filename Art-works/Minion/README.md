@@ -1,7 +1,10 @@
 # Minion
 
 My first in developing artworks with code was by developing this minion.<br>
+
+## Snapshots
 ![minion](minion.png)<br>
+
 **This Minion has been developed keeping in mind the responsive nature of web page.**<br>
 ### Technologies Used: 
 - HTML

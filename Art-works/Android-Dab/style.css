@@ -1,0 +1,144 @@
+body{
+    margin-top:100px;
+    padding:0;
+    height:100vh;
+    width:100vw;
+  }
+  .android{
+    display:grid;
+    justify-content:center;
+  }
+  .android-logo{
+     display:grid;
+     grid-template-rows:1fr 1fr 1fr;
+     row-gap:10px;
+  }
+  .android-head{
+    display:grid;
+    grid-template-rows:1fr 1fr 1fr;
+  }
+  .hair{
+    position:relative;
+  }
+  .left-hair{
+    background-color:#A3A847;
+    height:50px;
+    width:10px;
+    position:absolute;
+    top:66px;
+    left:40px;
+    transform:rotate(-30deg);
+  }
+  .right-hair{
+    background-color:#A3A847;
+    height:50px;
+    width:10px;
+    position:absolute;
+    top:63px;
+    left:144px;
+    transform:rotate(30deg);
+  }
+  .face{
+    background-color:#A3A847;
+    height:100px;
+    width:200px;
+    border-radius:100px 100px 0 0;
+  }
+  .eyes{
+    position:relative;
+  }
+  .left-eye{
+    background-color:#fff;
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    position:absolute;
+    top:50px;
+    left:60px;
+  }
+  .right-eye{
+    background-color:#fff;
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    position:absolute;
+    top:50px;
+    left:120px;
+  }
+  .android-body{
+    display:grid;
+    position:relative;
+  }
+  .left-hand{
+     background-color:#A3A847;
+     border-radius: 20px;
+     width:40px;
+     height:180px;
+     position:absolute;
+     right:210px;
+     bottom:220px;
+  }
+  .right-hand{
+     background-color:#A3A847;
+     border-radius: 20px;
+     width:40px;
+     height:180px;
+     position:absolute;
+     left:210px;
+     bottom:220px;
+  }
+  .body{
+    background-color:#A3A847;
+    width:200px;
+    height:200px;
+    position:relative;
+    right:0;
+    bottom:100px;
+  }
+  .android-legs{
+    display:grid;
+    position:relative;
+  }
+  .left-leg{
+     background-color:#A3A847;
+     border-radius: 20px;
+     width:40px;
+     height:120px;
+     position:relative;
+     bottom:240px;
+     left:30px;
+  }
+  .right-leg{
+     background-color:#A3A847;
+     border-radius: 20px;
+     width:40px;
+     height:120px;
+     position:relative;
+     bottom:390px;
+     left:135px;
+  }
+  .android-logo:hover > .android-body > .left-hand{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    bottom:344px;
+    right:234px;
+    transform: rotate(-410deg);
+    z-index:1;
+  }
+  .android-logo:hover > .android-body > .right-hand{
+     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
+    bottom:300px;
+    left:140px;
+    transform: rotate(-230deg);
+    z-index:1;
+    
+  }
+  .android-logo:hover > .android-head > .face > .eyes > .left-eye{
+    border-radius:0;
+    height:5px;
+    width:20px;
+  }
+  .android-logo:hover > .android-head > .face > .eyes > .right-eye{
+    border-radius:0;
+    height:5px;
+    width:20px;
+  }
