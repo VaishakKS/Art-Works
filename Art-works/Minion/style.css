@@ -1,0 +1,274 @@
+body {
+    margin-top:100px;
+    padding:0;
+    background-color: #f7fd04;
+    height:100vh;
+    width:100vw;
+  }
+  .minion-body {
+    height: 350px;
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #ffcc66;
+    border: 8px solid;
+    border-radius: 150px 150px 130px 130px;
+    z-index: -1;
+  }
+  .minion-smile {
+    width: 150px;
+    height: 100px;
+    border: solid 6px #000;
+    position: relative;
+    bottom: 180px;
+    left: 22px;
+    border-color: transparent transparent #000 transparent;
+    border-radius: 0 0 100px 50%/60px;
+  }
+  .minion-cloth,
+  .minion-hands,
+  .minion-legs,
+  .minion-glassess,
+  .minion-shoes,
+  .minion-hair {
+    position: relative;
+  }
+  .minion-left-hair {
+    width: 150px;
+    height: 100px;
+    border: solid 5px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 50%/100px 100px 0 0;
+    position: relative;
+    bottom: 32px;
+    left: 68px;
+  }
+  .minion-right-hair {
+    width: 150px;
+    height: 100px;
+    border: solid 5px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 50%/100px 100px 0 0;
+    position: relative;
+    bottom: 144px;
+    right: 34px;
+  }
+  .minion-glass-frame {
+    height: 40px;
+    width: 230px;
+    background-color: #000;
+    position: absolute;
+    bottom: 138px;
+    right: -15px;
+  }
+  .minion-glass-lens-left {
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    border: 15px solid;
+    border-radius: 50%;
+    position: absolute;
+    left: 16px;
+    bottom: 110px;
+  }
+  .minion-glass-lens-right {
+    height: 60px;
+    width: 60px;
+    background-color: #fff;
+    border: 15px solid;
+    border-radius: 50%;
+    position: absolute;
+    right: 16px;
+    bottom: 110px;
+  }
+  .minion-eye-pupil-left,
+  .minion-eye-pupil-right {
+    height: 30px;
+    width: 30px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 14px;
+  }
+  .minion-eye-pupil-left {
+    left: 16px;
+  }
+  .minion-eye-pupil-right {
+    right: 16px;
+  }
+  .minion-cloth-shoulders-left {
+    height: 20px;
+    width: 70px;
+    background-color: #3c8dad;
+    position: absolute;
+    bottom: 140px;
+    left: -17px;
+    z-index: 3;
+    transform: rotate(35.5deg);
+    border-top-width: 6px;
+    border-left-width: 6px;
+    border-bottom-width: 6px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+  }
+  .minion-cloth-shoulders-right {
+    height: 20px;
+    width: 70px;
+    background-color: #3c8dad;
+    position: absolute;
+    bottom: 140px;
+    right: -19px;
+    z-index: 3;
+    transform: rotate(-35.5deg);
+    border-top-width: 6px;
+    border-right-width: 6px;
+    border-bottom-width: 6px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+  }
+  .minion-cloth-chest {
+    height: 60px;
+    width: 110px;
+    position: absolute;
+    right: 36px;
+    bottom: 82px;
+    background-color: #3c8dad;
+    border-top-width: 8px;
+    border-top-style: solid;
+    border-left-width: 8px;
+    border-left-style: solid;
+    border-right-width: 8px;
+    border-right-style: solid;
+    z-index: 1;
+  }
+  .minion-cloth-stomach {
+    height: 100px;
+    width: 200px;
+    background-color: #3c8dad;
+    position: absolute;
+    bottom: -18px;
+    border-radius: 0 0 80px 80px;
+    border-top: 8px solid;
+  }
+  .minion-cloth-symbol {
+    height: 80px;
+    width: 80px;
+    background-color: #000;
+    position: absolute;
+    bottom: 38px;
+    left: 62px;
+    border-radius: 50%;
+    z-index: 2;
+  }
+  .square {
+    height: 54px;
+    width: 54px;
+    background-color: #3c8dad;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    transform: rotate(45deg);
+  }
+  .dot {
+    height: 30px;
+    width: 30px;
+    background-color: #000;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    border-radius: 50%;
+  }
+  .line-1 {
+    height: 4px;
+    width: 42px;
+    background-color: #000;
+    transform: rotate(135deg);
+    position: absolute;
+    top: 13px;
+    left: 18px;
+  }
+  .line-2 {
+    height: 3px;
+    width: 35px;
+    background-color: #3c8dad;
+    transform: rotate(135deg);
+    position: absolute;
+    top: 12px;
+    left: 28px;
+  }
+  .minion-left-hand {
+    height: 100px;
+    width: 22px;
+    background-color: #ffcc66;
+    transform: rotate(28.5deg);
+    position: absolute;
+    right: 209px;
+    bottom: -16px;
+    border-bottom-width: 60px;
+    border-bottom-style: solid;
+    border-left-width: 8px;
+    border-left-style: solid;
+    border-right-width: 8px;
+    border-right-style: solid;
+    border-radius: 0 0 30px 30px;
+  }
+  .minion-right-hand {
+    height: 100px;
+    width: 22px;
+    background-color: #ffcc66;
+    transform: rotate(-28.5deg);
+    position: absolute;
+    left: 209px;
+    bottom: -16px;
+    border-bottom-width: 60px;
+    border-bottom-style: solid;
+    border-left-width: 8px;
+    border-left-style: solid;
+    border-right-width: 8px;
+    border-right-style: solid;
+    border-radius: 0 0 30px 30px;
+  }
+  .minion-left-leg {
+    height: 50px;
+    width: 40px;
+    background-color: #3c8dad;
+    position: absolute;
+    bottom: -56px;
+    left: 32px;
+    border-left-width: 6px;
+    border-left-style: solid;
+    border-right-width: 6px;
+    border-right-style: solid;
+  }
+  .minion-right-leg {
+    height: 50px;
+    width: 40px;
+    background-color: #3c8dad;
+    position: absolute;
+    bottom: -56px;
+    right: 32px;
+    border-left-width: 6px;
+    border-left-style: solid;
+    border-right-width: 6px;
+    border-right-style: solid;
+  }
+  .minion-left-shoe {
+    height: 30px;
+    width: 70px;
+    background-color: #000;
+    position: absolute;
+    bottom: -74px;
+    left: 14px;
+    border-radius: 22px 0 0 6px;
+  }
+  .minion-right-shoe {
+    height: 30px;
+    width: 70px;
+    background-color: #000;
+    position: absolute;
+    bottom: -74px;
+    right: 14px;
+    border-radius: 0 22px 6px 0;
+  }  
