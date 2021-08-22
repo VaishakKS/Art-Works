@@ -1,4 +1,4 @@
-# Android UI Flow
+# Smartphone UI Flow
 
 This art work showcases how a Smartphone User interface flow works. The flow begins with a lock screen where the user has to swipe the screen, after swiping the screen the user is taken to enter a 4 digit pin. Enter any 4 digit pin and user is taken to the home screen where current date and time will be displayed. There will be google search bar where in the user can input any text to search for and on pressing Enter the user get's redirected to google search engine based on the keywork given in input field.
 
