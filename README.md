@@ -3,7 +3,7 @@ this repo is a collection of css art works.
 
 **All the artworks have been developed using codepen online ide. This repo consists source code for easy analysis of code.**<br>
 
-Click on this [codepen](https://codepen.io/vaishak10) link which will direct you to my codepen profile.
+Check out some of my works at [Css arts](https://codepen.io/collection/MgWYGL). This is a collection which consists of all my art works.
 
 ## Art Works
 - [Minion](Art-works/Minion)
